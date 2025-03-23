@@ -12,7 +12,7 @@ build: builder
 
 .PHONY: build-docker
 build-docker:
-	docker buildx build --platform linux/amd64,linux/arm64 --progress=plain . -t tdarwin-otelcol
+	docker buildx build --platform linux/arm64 --progress=plain . -t tdarwin-otelcol
 
 .PHONY: run
 run: build
