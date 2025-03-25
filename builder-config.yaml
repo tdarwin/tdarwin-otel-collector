@@ -57,7 +57,6 @@ providers:
 
 extensions:
   - gomod: go.opentelemetry.io/collector/extension/zpagesextension v0.122.1
-  - gomod: go.opentelemetry.io/collector/extension/zpagesextension v0.122.1
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckextension v0.122.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension v0.122.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampextension v0.122.0
