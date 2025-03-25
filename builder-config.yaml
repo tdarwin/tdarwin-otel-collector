@@ -2,7 +2,7 @@ dist:
   name: tdarwin-otelcol
   description: TDarwin's OpenTelemetry Collector Distribution
   output_path: ./bin
-  version: 0.122.0
+  version: 0.122.1
 
 exporters:
   - gomod: go.opentelemetry.io/collector/exporter/debugexporter v0.122.1
